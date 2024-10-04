@@ -15,6 +15,6 @@
       Terraform: 4
     Realproject: true #boolean
   tasks: 
-  -name: print variables
-   ansible.builtin.debug:
-     msg: "Course: {{Course}}, Tools covered {{Tools}} Experience is {{Experience}} Real project {{Realproject}}"
+  - name: print variables
+    ansible.builtin.debug:
+      msg: "Course: {{Course}}, Tools covered {{Tools}} Experience is {{Experience}} Real project {{Realproject}}"

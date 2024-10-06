@@ -6,3 +6,4 @@
   - name: print override information
     ansible.builtin.debug:
       msg: "Hi, we are learning {{Course}} from Trainer {{Trainer}}, Duration is {{Duration}}"
+      
